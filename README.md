@@ -159,7 +159,6 @@ O modelo de responsabilidade compartilhada define **quais partes da segurança e
 6. **Acesso ao Banco de Dados:**
    - Use ferramentas como **Azure Data Studio** ou **SQL Server Management Studio (SSMS)** para se conectar
    - Use a string de conexão disponível no portal do Azure
-
 ---
 
 ## 💡 Dicas Rápidas
