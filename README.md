@@ -1,4 +1,5 @@
-# Introdução a Cloud Compunting (Azure Fundamentals) ☁️
+# ☁️ Microsoft Azure: Resumos, Anotações e Dicas
+Este repositório tem como objetivo centralizar resumos e boas práticas sobre o uso da plataforma de nuvem **Microsoft Azure**, com foco no entendimento de conceitos fundamentais, configuração de serviços e dicas úteis estudados durante o Bootcamp Java Cloud na DIO.
 
 ## 🔍 O que é Computação em Nuvem?
 Computação em nuvem é a entrega de recursos de TI sob demanda pela internet, com pagamento conforme o uso.
@@ -94,4 +95,86 @@ Após a criação, você pode acessar a VM via:
 - RDP (Windows):
   ```bash
   Use o cliente de Área de Trabalho Remota com o IP fornecido.
+
+---
+
+## 📚 Tipos de Serviços em Nuvem
+
+### 🔹 IaaS — Infraestrutura como Serviço
+- Proporciona recursos básicos de computação, como **máquinas virtuais, armazenamento e redes**.
+- Você gerencia o sistema operacional e o software.
+- **Exemplo:** Máquinas Virtuais (Azure VM), Discos gerenciados.
+
+### 🔹 PaaS — Plataforma como Serviço
+- Fornece uma plataforma completa para desenvolvimento e implantação de aplicativos.
+- A Microsoft gerencia a infraestrutura, e você se concentra no código.
+- **Exemplo:** Azure App Service, Azure SQL Database.
+
+### 🔹 SaaS — Software como Serviço
+- Aplicações prontas para uso, acessadas pela internet.
+- O provedor gerencia tudo: infraestrutura, aplicativo e dados.
+- **Exemplo:** Microsoft 365, Outlook Web, Dynamics 365.
+
+---
+
+## 🔐 Modelo de Responsabilidade Compartilhada
+
+O modelo de responsabilidade compartilhada define **quais partes da segurança e da gestão são de responsabilidade do cliente e quais são da Microsoft**, dependendo do tipo de serviço utilizado.
+
+| Camada                        | IaaS (VMs) | PaaS (App Service, DB) | SaaS (Microsoft 365) |
+|------------------------------|------------|-------------------------|-----------------------|
+| Dados                        | Cliente    | Cliente                 | Cliente               |
+| Controles de acesso          | Cliente    | Cliente                 | Cliente               |
+| Aplicações                   | Cliente    | Cliente                 | Microsoft             |
+| Sistema operacional          | Cliente    | Microsoft               | Microsoft             |
+| Rede e infraestrutura        | Microsoft  | Microsoft               | Microsoft             |
+| Físico (datacenter)          | Microsoft  | Microsoft               | Microsoft             |
+
+---
+
+## 🛠️ Configurando uma Instância de Banco de Dados no Azure
+
+### 📌 Exemplo: Azure SQL Database (PaaS)
+
+1. **Acesse o portal Azure:**  
+   [https://portal.azure.com](https://portal.azure.com)
+
+2. **Crie um recurso:**  
+   Vá em **"Criar um recurso" > "Banco de Dados" > "SQL Database"**
+
+3. **Preencha os dados:**
+   - **Nome do banco de dados**
+   - **Grupo de recursos** (crie um novo ou reutilize um existente)
+   - **Servidor SQL** (crie um novo: nome, login e senha)
+   - **Camada de preço** (Escolha com base em DTUs ou vCores)
+
+4. **Configurações adicionais:**
+   - Configure backups automáticos e redundância geográfica se necessário
+   - Habilite regras de firewall para acesso externo (incluir IP local)
+
+5. **Revisar e Criar:**
+   - Clique em **"Revisar + criar"**
+   - Após a validação, clique em **"Criar"**
+
+6. **Acesso ao Banco de Dados:**
+   - Use ferramentas como **Azure Data Studio** ou **SQL Server Management Studio (SSMS)** para se conectar
+   - Use a string de conexão disponível no portal do Azure
+
+---
+
+## 💡 Dicas Rápidas
+
+- Utilize **tags** nos recursos para facilitar a organização e rastreamento de custos.
+- Configure **alertas de custo** para evitar gastos inesperados.
+- Use a **Calculadora de Preços do Azure** para planejar antes de criar recursos.
+- Sempre revise as configurações de **firewall e acesso à rede** ao expor serviços na nuvem.
+
+---
+
+📎 **Documentação oficial:**  
+- [Microsoft Learn – Azure](https://learn.microsoft.com/azure/)
+- [Calculadora de Preço do Azure](https://azure.microsoft.com/pricing/calculator/)
+
+---
+
 
