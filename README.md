@@ -174,6 +174,60 @@ O modelo de responsabilidade compartilhada define **quais partes da segurança e
 - [Microsoft Learn – Azure](https://learn.microsoft.com/azure/)
 - [Calculadora de Preço do Azure](https://azure.microsoft.com/pricing/calculator/)
 
+# 🌐 Componentes de Arquitetura do Azure
+
+## 📍 Regiões e Zonas de Disponibilidade
+- O Azure é distribuído globalmente em **regiões**, compostas por **data centers físicos**.
+- **Zonas de disponibilidade** garantem **resiliência** e **baixa latência** para os clientes.
+- A **Microsoft** é responsável pela gestão dos hosts (infraestrutura física), mas o cliente deve considerar a **disponibilidade** e a **manutenção** ao planejar soluções.
+- Em relação à **LGPD**, a escolha da região impacta diretamente a **residência dos dados** e a **conformidade legal**.
+
+## 🔁 Pares de Regiões
+- Cada região possui uma **região par** que atua como **backup automático** para alguns serviços.
+- Essa replicação aumenta a **disponibilidade** e a **recuperação de desastres**, embora **não tenha SLA definido**.
+
+## 🛠️ Conjuntos de Disponibilidade
+- São compostos por:
+  - **Domínios de atualização**: minimizam a indisponibilidade durante atualizações.
+  - **Domínios de falha**: distribuem recursos para resistir a falhas físicas.
+
+## 🏛️ Regiões Soberanas
+- **Azure Governamental (EUA)**: atende as necessidades de segurança e conformidade de agências federais.
+- **Azure China**: instância física separada, operada pela empresa **21Vianet**.
+
 ---
 
+## 📦 Recursos e Grupos de Recursos
+- Um **grupo de recursos** é um **contêiner lógico** para agrupar e gerenciar recursos relacionados (ex: VMs, bancos de dados, armazenamento, etc).
+- Estratégias de organização:
+  - Todos os recursos em um único grupo (mais simples, menos escalável).
+  - Separação por tipo ou função (mais organizado e escalável).
+- Características importantes:
+  - Um recurso pertence a **apenas um grupo de recursos**.
+  - Pode estar em **diferentes regiões**.
+  - Pode ser **movido entre grupos**.
+  - **Aplicações** podem utilizar recursos de **vários grupos diferentes**.
+  - Organização é essencial para escalabilidade e controle de acesso.
+
+---
+
+## 💼 Assinaturas e Grupos de Gerenciamento
+
+### 🔹 Assinaturas
+- Uma conta Azure pode ter **múltiplas assinaturas**, como:
+  - Desenvolvimento
+  - Testes
+  - Produção
+- Cada assinatura possui:
+  - **Fatura individual**
+  - **Limites de cobrança**
+  - **Controles de acesso específicos**
+
+### 🔸 Grupos de Gerenciamento
+Estrutura para organização em larga escala:
+```bash
+Grupos de Gerenciamento
+    └── Assinaturas
+          └── Grupos de Recursos
+                └── Recursos
 
