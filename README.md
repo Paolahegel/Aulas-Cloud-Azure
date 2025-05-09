@@ -1,6 +1,8 @@
 # ☁️ Microsoft Azure: Resumos, Anotações e Dicas
 Este repositório tem como objetivo centralizar resumos e boas práticas sobre o uso da plataforma de nuvem **Microsoft Azure**, com foco no entendimento de conceitos fundamentais, configuração de serviços e dicas úteis estudados durante o Bootcamp Java Cloud na DIO.
 
+---
+
 ## 🔍 O que é Computação em Nuvem?
 Computação em nuvem é a entrega de recursos de TI sob demanda pela internet, com pagamento conforme o uso.
 Esses recursos incluem servidores, armazenamento, banco de dados, rede, software, análise e muito mais — tudo isso hospedado em datacenters de grandes provedores como o Amazon Web Service, Microsoft Azure, Google Cloud Platform, entre outros.
