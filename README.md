@@ -232,3 +232,108 @@ Grupos de Gerenciamento
           └── Grupos de Recursos
                 └── Recursos
 
+```
+--- 
+
+# ☁️ Computação e Rede no Azure
+
+O Azure oferece serviços de computação sob demanda, permitindo que você use apenas os recursos necessários para o seu cenário. Entre os principais serviços estão:
+
+- 💻 Máquinas Virtuais (VMs)  
+- 🛠️ Aplicativos e Serviços  
+- 📦 Instâncias de Contêineres  
+- ⚙️ Serviço de Kubernetes (AKS)  
+- 🖥️ Área de trabalho virtual do Azure  
+
+---
+
+## 💻 Máquinas Virtuais (VMs)
+
+As máquinas virtuais são emulações de computadores físicos, fornecendo Infraestrutura como Serviço (IaaS). Esse modelo permite controle total sobre a configuração e gerenciamento dos recursos, o que implica também maior responsabilidade.
+
+Elas são úteis para migrações do tipo **lift-and-shift**, onde os sistemas são transferidos para a nuvem sem necessidade de modernização imediata.
+
+### 🔁 Recursos importantes:
+
+- 🔄 **Conjuntos de dimensionamento**: escalam automaticamente as VMs conforme a demanda.  
+- ⚖️ **Balanceamento de carga**: distribui o tráfego entre diferentes instâncias.
+
+### 🔒 Alta Disponibilidade
+
+- 🗄️ **Conjuntos de disponibilidade**: agrupam VMs em diferentes racks físicos.  
+  - 🧱 **Domínio de falha**: evita que todas as VMs sejam afetadas por falha em um único rack.  
+  - ♻️ **Domínio de atualização**: garante continuidade durante atualizações.
+
+---
+
+## 🖥️ Área de Trabalho Virtual do Azure
+
+Crie um ambiente completo de desktop virtual na nuvem, sem precisar configurar gateways externos.
+
+- 🌐 Acesso via navegador ou aplicativos dedicados  
+- 👥 Logon simultâneo com sessões isoladas  
+
+---
+
+## 📦 Serviços de Contêineres
+
+Plataforma como Serviço (PaaS) que fornece ambientes leves e isolados sem precisar de um sistema operacional completo.
+
+Ideal para:
+
+- 🧩 Microserviços  
+- 🚀 Escalabilidade rápida  
+- 🧱 Menor sobrecarga comparado a VMs  
+
+Os contêineres compartilham o processamento do host de forma eficiente, otimizando os recursos.
+
+---
+
+## ⚙️ Azure Kubernetes Service (AKS)
+
+Serviço de orquestração de contêineres que gerencia todo o ciclo de vida das aplicações.
+
+- 🗂️ Ideal para arquiteturas distribuídas  
+- 🧠 Organiza e escala grandes volumes de contêineres  
+
+---
+
+## ⚡ Azure Functions
+
+Serviço de computação **baseado em eventos**.
+
+- 🕒 Executa apenas quando chamado  
+- 🔔 Exemplo: “Se determinado código rodar, quero ser notificado”  
+- 🌱 Sem necessidade de manter servidores ativos o tempo todo
+
+---
+
+## 🛠️ Serviço de Aplicativos do Azure
+
+Plataforma PaaS para desenvolvimento, implantação e escalabilidade de aplicações web e APIs.
+
+- 🚧 Implantação contínua  
+- 🔐 Segurança empresarial  
+- 📈 Alta performance e conformidade
+
+---
+
+## 🌐 Rede Virtual do Azure (VNet)
+
+Permite a comunicação entre recursos do Azure, com a internet e redes locais.
+
+### 🔗 Conectividade Híbrida
+
+- 🔒 **Gateway de VPN**: conexão segura entre rede local e nuvem  
+- ⚡ **ExpressRoute**: conexão física dedicada entre o data center do cliente e da Microsoft  
+
+---
+
+## 🧭 DNS no Azure
+
+Serviço baseado no Gerenciador de Recursos do Azure:
+
+- 🧑‍💻 Controle de acesso baseado em função (RBAC)  
+- 📊 Monitoramento e registro em log  
+- 🌐 Redes virtuais personalizadas  
+- 🏷️ Gerenciamento de domínios privados
