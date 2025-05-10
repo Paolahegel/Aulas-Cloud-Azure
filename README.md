@@ -212,7 +212,6 @@ O modelo de responsabilidade compartilhada define **quais partes da segurança e
   - Organização é essencial para escalabilidade e controle de acesso.
 
 ---
-
 ## 💼 Assinaturas e Grupos de Gerenciamento
 
 ### 🔹 Assinaturas
