@@ -1,6 +1,6 @@
 # ☁️ Microsoft Azure: Resumos, Anotações e Dicas
 
-Repositório com foco em **resumos essenciais** para a certificação AZ-900, abordando os **conceitos fundamentais de computação em nuvem**, os **principais serviços do Microsoft Azure**, e **dicas práticas** com base em experiências nas aulas e laboratórios.
+Repositório com foco em **resumos essenciais** com foco para a certificação AZ-900, abordando os **conceitos fundamentais de computação em nuvem**, os **principais serviços do Microsoft Azure**, e **dicas práticas** com base em experiências nas aulas e laboratórios.
 
 ---
 
@@ -181,16 +181,86 @@ Grupos de Gerenciamento
 
 ---
 
-## 💡 Dicas Finais para a AZ-900
+## 🔐 Identidade, Acesso e Segurança no Azure
+🧑‍💼 Microsoft Entra ID (antigo Azure Active Directory)
+O Microsoft Entra ID é o serviço de gerenciamento de identidades e acessos baseado em nuvem da Microsoft. Ele oferece:
 
-* Use **tags** para organização e controle de custos
-* Configure **alertas de orçamento**
-* Planeje com a [Calculadora de Preços do Azure](https://azure.microsoft.com/pricing/calculator/)
-* Atenção com **firewall e regras de acesso**
+- Autenticação: valida a identidade dos usuários.
+
+- Autorização: define os níveis de acesso aos recursos após a autenticação.
+
+- Logon único (SSO): permite que os usuários acessem múltiplos aplicativos com uma única autenticação.
+
+- Gerenciamento de dispositivos e aplicativos: controla quais dispositivos e aplicativos podem acessar os recursos.
+
+- Colaboração B2B: permite a colaboração segura com parceiros externos.
+
+- Gerenciamento de senhas: inclui recursos como redefinição de senha self-service.
 
 ---
 
-📎 **Referências**:
+## 🛡️ Métodos de Autenticação
+O Entra ID suporta diversos métodos de autenticação para melhorar a segurança:
+
+- Autenticação multifator (MFA): exige uma segunda forma de verificação, como um código enviado ao celular.
+
+- Autenticação sem senha: utiliza métodos como Windows Hello, chaves de segurança FIDO2 ou o aplicativo Microsoft Authenticator.
+
+- Autenticação baseada em certificado: utiliza certificados digitais para autenticar usuários.
+
+- Senha tradicional: ainda suportada, mas recomendada em conjunto com MFA para maior segurança.
+
+---
+
+⚙️ Acesso Condicional e RBAC
+- Acesso Condicional: permite aplicar políticas de acesso baseadas em condições específicas, como localização, dispositivo ou risco de login.
+
+- Controle de Acesso Baseado em Função (RBAC): atribui permissões aos usuários com base em suas funções, seguindo o princípio de menor privilégio.
+
+---
+
+## 🧅 Modelo de Segurança em Camadas (Defesa em Profundidade)
+A segurança no Azure é estruturada em camadas para fornecer múltiplas barreiras de proteção:
+
+- Dados
+
+- Aplicações
+
+- Computação
+
+- Rede
+
+- Perímetro
+
+- Identidade e Acesso
+
+- Segurança Física
+
+- Essa abordagem garante que, mesmo que uma camada seja comprometida, as outras continuem protegendo os recursos.
+
+---
+
+## 🔍 Microsoft Defender for Cloud
+O Microsoft Defender for Cloud é uma plataforma unificada de gerenciamento de segurança que oferece:
+
+- Gerenciamento de postura de segurança na nuvem (CSPM): identifica e corrige configurações inseguras.
+
+- Proteção de cargas de trabalho na nuvem (CWPP): protege servidores, contêineres, bancos de dados e mais.
+
+- Análise de caminhos de ataque: modela o tráfego da rede para identificar riscos potenciais.
+
+- Conformidade regulatória: ajuda a atender padrões como HIPAA, GDPR e PCI DSS.
+
+- Integração multicloud: suporta ambientes Azure, AWS e Google Cloud.
+
+---
+
+## 📎 Documentação oficial:
 
 * [Microsoft Learn – Azure](https://learn.microsoft.com/azure/)
 * [Calculadora de Preço do Azure](https://azure.microsoft.com/pricing/calculator/)
+* [Microsoft Entra ID - Visão Geral](https://learn.microsoft.com/entra/)
+* [Microsoft Defender for Cloud - Visão Geral](https://learn.microsoft.com/azure/defender-for-cloud/)
+
+
+
