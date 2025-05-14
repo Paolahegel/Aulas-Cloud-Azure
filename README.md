@@ -79,7 +79,6 @@ A responsabilidade pela segurança depende do modelo:
 ---
 
 ## 🗃️ Banco de Dados no Azure
-
 ### Criando Azure SQL Database:
 
 1. Portal Azure > Criar recurso > SQL Database
