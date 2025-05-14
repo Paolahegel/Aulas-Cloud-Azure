@@ -259,6 +259,3 @@ O Microsoft Defender for Cloud é uma plataforma unificada de gerenciamento de s
 * [Calculadora de Preço do Azure](https://azure.microsoft.com/pricing/calculator/)
 * [Microsoft Entra ID - Visão Geral](https://learn.microsoft.com/entra/)
 * [Microsoft Defender for Cloud - Visão Geral](https://learn.microsoft.com/azure/defender-for-cloud/)
-
-
-
