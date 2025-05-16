@@ -3,7 +3,7 @@ Repositório com foco em **resumos essenciais** com foco para a certificação A
 
 ---
 
-## 🔍 O que é Computação em Nuvem?
+🔍 O que é Computação em Nuvem?
 
 Computação em nuvem é a entrega sob demanda de recursos de TI via internet com modelo de pagamento por uso. Exemplos:
 
@@ -15,7 +15,6 @@ Computação em nuvem é a entrega sob demanda de recursos de TI via internet co
 
 **Provedores populares:** Microsoft Azure, AWS, Google Cloud.
 
----
 
 ## 🌐 Tipos de Nuvem
 
@@ -367,9 +366,64 @@ A Inteligência Artificial é a capacidade de sistemas computacionais de simular
 
 ---
 
+# Azure Cognitive Search com AI Search
+
+O **Azure Cognitive Search** é um serviço de pesquisa na nuvem da Microsoft que permite criar experiências de busca enriquecidas em seus aplicativos, utilizando inteligência artificial para **indexar**, **analisar** e **consultar dados estruturados e não estruturados**. Utiliza **técnicas de IA para transformar dados em informações pesquisáveis**.
+
+---
+
+## 🔍 Conceitos-Chave
+
+### ✅ Indexação de Dados
+
+- **Índice**: estrutura que armazena e organiza dados pesquisáveis.
+- **Indexador**: componente que extrai dados de uma fonte (ex: Azure SQL Database, Blob Storage).
+- **Pipeline de Enriquecimento Cognitivo**:
+  - Usa **Cognitive Skills** (como OCR, análise de sentimentos e extração de entidades).
+  - Permite transformar dados brutos em informações pesquisáveis com IA.
+
+### ✅ Consulta de Dados
+
+- Os dados indexados podem ser consultados usando **queries** baseadas em texto.
+- Suporte a filtros, ordenações, ranking de relevância e análise linguística.
+- Integração com APIs RESTful ou SDKs (ex: .NET, Python, Java).
+
+---
+
+## 🧩 AI Search com Cognitive Skills
+
+As **Cognitive Skills** são modelos de IA que enriquecem o conteúdo durante o processo de indexação, como:
+
+- **Reconhecimento de Imagem (OCR)** para extrair texto de imagens.
+- **Detecção de Sentimentos** em textos.
+- **Extração de Frases-Chave e Entidades Nomeadas**.
+
+Essas habilidades podem ser combinadas em um **pipeline de enriquecimento**, permitindo que dados não estruturados se tornem pesquisáveis.
+
+---
+
+## 🧠 Casos de Uso Comuns
+
+- Busca em documentos PDF, imagens digitalizadas ou arquivos de áudio transcritos.
+- Construção de sistemas de FAQ inteligentes.
+- Indexação de grandes volumes de conteúdo de suporte ao cliente.
+
+---
+
+## 🛡️ Pontos de Atenção para a IA-900
+
+- O **Azure Cognitive Search** é voltado para **soluções de IA de baixo código/no-code** com grande integração ao ecossistema Azure.
+- Foco na **integração com Cognitive Services** (ex: Language, Vision).
+- O objetivo é **facilitar o acesso e a compreensão de grandes volumes de dados não estruturados** com uso de IA.
+
+---
+
+
 ## 📎 Documentação oficial:
 
 * [Microsoft Learn – Azure](https://learn.microsoft.com/azure/)
 * [Calculadora de Preço do Azure](https://azure.microsoft.com/pricing/calculator/)
 * [Microsoft Entra ID - Visão Geral](https://learn.microsoft.com/entra/)
 * [Microsoft Defender for Cloud - Visão Geral](https://learn.microsoft.com/azure/defender-for-cloud/)
+* [Documentação Azure Cognitive Search](https://learn.microsoft.com/azure/search/)
+* [Microsoft Learn – AI-900](https://learn.microsoft.com/training/paths/get-started-ai-fundamentals/)
