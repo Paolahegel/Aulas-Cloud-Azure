@@ -410,11 +410,117 @@ Essas habilidades podem ser combinadas em um **pipeline de enriquecimento**, per
 
 ---
 
-## 🛡️ Pontos de Atenção para a IA-900
+# 🧠 IA Generativa no Azure
 
-- O **Azure Cognitive Search** é voltado para **soluções de IA de baixo código/no-code** com grande integração ao ecossistema Azure.
-- Foco na **integração com Cognitive Services** (ex: Language, Vision).
-- O objetivo é **facilitar o acesso e a compreensão de grandes volumes de dados não estruturados** com uso de IA.
+A **Inteligência Artificial Generativa** simula o comportamento humano com base em aprendizado de máquina, permitindo que a IA interaja com o ambiente e execute tarefas **sem instruções explícitas**.
+
+### Características:
+- Interação natural com máquinas
+- Curva de aprendizado rápida e prática
+- Modelos baseados em linguagem natural
+
+---
+
+## 🤝 Copilotos: Assistência Inteligente em Ações Comuns
+
+**Copilotos** são funcionalidades baseadas em IA integradas a aplicativos como Word, Excel, GitHub, etc., que ajudam usuários a realizar tarefas com maior eficiência.
+
+### O que eles fazem:
+- Fornecem suporte inteligente baseado em contexto
+- Ajudam com tarefas como escrita, programação e análise
+- Enviam prompts para LLMs e retornam conteúdo útil
+
+### Exemplo de uso:
+- No GitHub Copilot, completar código automaticamente com base no contexto já escrito.
+- No Word, gerar um relatório com base em tópicos ou anotações brutas.
+
+---
+
+## ✍️ Engenharia de Prompts
+
+**Engenharia de prompts** é a prática de estruturar comandos (prompts) para obter as melhores respostas da IA.
+
+### Boas práticas:
+- Use **linguagem direta**: seja claro e objetivo
+- Forneça **contexto** e **exemplos**
+- Utilize **mensagens de sistema** para moldar o comportamento da IA (ex: chatbot)
+- Alimente a IA com **dados de fundamentação**
+
+---
+
+## 🧠 Modelos de Linguagem de Grande Escala (LLMs)
+
+Os **LLMs** são a base da IA Generativa e permitem tarefas de **Processamento de Linguagem Natural (PLN)**.
+
+### Aplicações:
+- Análise de sentimentos
+- Classificação e resumo de textos
+- Comparação semântica entre textos
+- Geração de linguagem natural
+
+---
+
+## ⚙️ Como funcionam os LLMs?
+
+### 1. **Tokenização**
+- Quebra do texto em blocos (tokens)
+- Cada palavra ou parte dela é associada a um valor
+
+### 2. **Inserções**
+- As relações entre tokens são representadas como vetores
+- A IA "encaixa" tokens para gerar algo com sentido
+
+### 3. **Atenção**
+- A técnica de atenção avalia o grau de importância entre tokens
+- Usa probabilidades para prever o que deve vir a seguir
+
+---
+
+## 🔄 Modelos Transformadores
+
+### Transformador 1:
+- **Codificador**: cria representações semânticas do vocabulário
+- **Decodificador**: gera novas sequências de linguagem
+
+### Transformador 2:
+- Usa tokenização baseada em probabilidade
+- Quanto mais a IA é treinada, mais precisa ela se torna
+
+---
+
+## ☁️ Serviço OpenAI no Azure
+
+Plataforma da Microsoft para usar IA generativa com recursos robustos de segurança e escalabilidade.
+
+### Funcionalidades:
+- **Implantação e personalização** de LLMs
+- **Hospedagem na nuvem**
+- **Suporte a modelos**: GPT-3.5, GPT-4, Embeddings, DALL-E
+- **Integração via API**
+- **Controle de Acesso (RBAC)**
+
+### Recursos:
+- Geração e edição de imagens com DALL-E
+- Geração de código e explicações com GPT
+- Respostas em linguagem natural com PLN
+
+---
+
+## 🛡️ IA Generativa Responsável
+
+A Microsoft propõe quatro fases para garantir um uso ético e seguro da IA:
+
+1. **Identificar**:
+   - Quais danos podem ocorrer com a solução planejada?
+
+2. **Medir**:
+   - Esses danos estão presentes nas respostas da IA?
+
+3. **Mitigar**:
+   - O que pode ser feito para reduzir esses danos?
+
+4. **Operar**:
+   - Como garantir que a IA seja usada com responsabilidade e controle?
 
 ---
 
