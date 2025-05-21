@@ -1,4 +1,4 @@
-# ☁️ Microsoft Azure: Resumos, Anotações e Dicas
+# ☁️ Microsoft Azure: Resumos do Bootcamp
 Repositório com foco em **resumos essenciais** com foco para a certificação AZ-900, abordando os **conceitos fundamentais de computação em nuvem**, os **principais serviços do Microsoft Azure**, e **dicas práticas** com base em experiências nas aulas e laboratórios.
 
 ---
