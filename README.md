@@ -179,8 +179,7 @@ Grupos de Gerenciamento
 ---
 
 ## 🔐 Identidade, Acesso e Segurança no Azure
-🧑‍💼 Microsoft Entra ID (antigo Azure Active Directory)
-O Microsoft Entra ID é o serviço de gerenciamento de identidades e acessos baseado em nuvem da Microsoft. Ele oferece:
+🧑‍💼 Microsoft Entra ID (antigo Azure Active Directory) - O Microsoft Entra ID é o serviço de gerenciamento de identidades e acessos baseado em nuvem da Microsoft. Ele oferece:
 
 - Autenticação: valida a identidade dos usuários.
 
