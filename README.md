@@ -109,17 +109,13 @@ A responsabilidade pela segurança depende do modelo:
 * Azure Governamental (EUA)
 * Azure China (21Vianet)
 
----
-
-## 📦 Recursos e Grupos de Recursos
+### 📦 Recursos e Grupos de Recursos
 
 * Contêiner lógico para organizar recursos
 * Um recurso pertence a um grupo
 * Possível mover entre grupos
 
----
-
-## 💼 Assinaturas e Grupos de Gerenciamento
+### 💼 Assinaturas e Grupos de Gerenciamento
 
 * **Assinaturas**: separa fatura, limites e acesso
 * **Grupos de gerenciamento** organizam em larga escala:
