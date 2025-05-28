@@ -5,7 +5,6 @@ Repositório com foco em **resumos essenciais** com foco para a certificação A
 
 🔍 O que é Computação em Nuvem?
 Computação em nuvem é a entrega sob demanda de recursos de TI via internet com modelo de pagamento por uso. Exemplos:
-
 * Servidores
 * Armazenamento
 * Redes
