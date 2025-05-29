@@ -60,7 +60,6 @@ A responsabilidade pela segurança depende do modelo:
 ## 💻 Criação de Máquinas Virtuais (VMs)
 
 ### Etapas:
-
 1. Acesse o [Portal Azure](https://portal.azure.com)
 2. Navegue até "Máquinas Virtuais" > "Criar"
 3. Escolha subscrição, grupo de recurso, nome, SO, tamanho
